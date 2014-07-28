@@ -79,7 +79,10 @@ BusyBird::DateTime::Format - DateTime::Format for BusyBird
 
 This class is the standard DateTime::Format in L<BusyBird>.
 
-It can parse the following format.
+It has a separate distribution from L<BusyBird>, so that input/filter modules
+do not have to depend on the entire L<BusyBird> infrastructure.
+
+L<BusyBird::DateTime::Format> can parse the following format.
 
 =over
 

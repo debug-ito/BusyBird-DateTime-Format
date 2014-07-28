@@ -73,6 +73,4 @@ checkFormat DT(qw(2013 11 1 0 0 3 UTC es_MX)), "Fri Nov 01 00:00:03 +0000 2013";
     is($str, 'Sat Feb 16 23:02:54 +0000 2013', 'str OK');
 }
 
-
 done_testing();
-
